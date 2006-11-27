@@ -6,22 +6,21 @@ Release:	0.8
 Epoch:		0
 License:	LGPL
 Group:		Applications/WWW
-Source0:	http://www.phpdoc.de/download/phpdoc1beta.zip
+Source0:	http://www.phpdoc.de/download/%{name}1beta.zip
 # Source0-md5:	ca05fe9e0bb6171b2defee60a23e98c9
 URL:		http://www.phpdoc.de/
 BuildRequires:	sed >= 4.0
-Requires:	php >= 3:4.0.3
-Requires:	php-pcre
-Requires:	php-xml
+Requires:	php(pcre)
+Requires:	php(xml)
+Requires:	webserver(php) >= 4.0.3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_appdir	%{_datadir}/%{name}
 
 %description
 PHPDoc is an adoption of Javadoc to the PHP world. PHPDoc is written
-in PHP. It offers you a way to generate an API documentation of
-object oriented and procedural code with certain markup in your
-source.
+in PHP. It offers you a way to generate an API documentation of object
+oriented and procedural code with certain markup in your source.
 
 %description -l pl
 PHPDoc to adaptacja Javadoc dla ¶wiata PHP. PHPDoc jest napisany w
