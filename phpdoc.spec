@@ -1,5 +1,5 @@
 Summary:	phpdoc - adoption of Javadoc to the PHP world
-Summary(pl):	phpdoc - adaptacja Javadoc dla ¶wiata PHP
+Summary(pl.UTF-8):   phpdoc - adaptacja Javadoc dla Å›wiata PHP
 Name:		phpdoc
 Version:	1.0beta
 Release:	0.8
@@ -22,10 +22,10 @@ PHPDoc is an adoption of Javadoc to the PHP world. PHPDoc is written
 in PHP. It offers you a way to generate an API documentation of object
 oriented and procedural code with certain markup in your source.
 
-%description -l pl
-PHPDoc to adaptacja Javadoc dla ¶wiata PHP. PHPDoc jest napisany w
-PHP. Oferuje sposób generowania dokumentacji API kodu zorientowanego
-obiektowo oraz proceduralnego z okre¶lonymi znacznikami w ¼ród³ach.
+%description -l pl.UTF-8
+PHPDoc to adaptacja Javadoc dla Å›wiata PHP. PHPDoc jest napisany w
+PHP. Oferuje sposÃ³b generowania dokumentacji API kodu zorientowanego
+obiektowo oraz proceduralnego z okreÅ›lonymi znacznikami w ÅºrÃ³dÅ‚ach.
 
 %prep
 %setup -q -n PHPDoc
