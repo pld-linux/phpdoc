@@ -1,5 +1,5 @@
 Summary:	phpdoc - adoption of Javadoc to the PHP world
-Summary(pl.UTF-8):   phpdoc - adaptacja Javadoc dla świata PHP
+Summary(pl.UTF-8):	phpdoc - adaptacja Javadoc dla świata PHP
 Name:		phpdoc
 Version:	1.0beta
 Release:	0.8
