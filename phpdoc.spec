@@ -10,6 +10,7 @@ Source0:	http://www.phpdoc.de/download/%{name}1beta.zip
 # Source0-md5:	ca05fe9e0bb6171b2defee60a23e98c9
 URL:		http://www.phpdoc.de/
 BuildRequires:	sed >= 4.0
+BuildRequires:	unzip
 Requires:	php(pcre)
 Requires:	php(xml)
 Requires:	webserver(php) >= 4.0.3
